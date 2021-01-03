@@ -14,6 +14,15 @@ export default function Home() {
                 <li>
                     <Link to="/buttonsAndIcons">Buttons and Icons</Link>
                 </li>
+                <li>
+                    <Link to="/actionButtons">Action Buttons</Link>
+                </li>
+                <li>
+                    <Link to="/navbar">NavBar</Link>
+                </li>
+                <li>
+                    <Link to="/collection">Collection</Link>
+                </li>
             </ul>
         </div>
     )
