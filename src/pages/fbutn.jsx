@@ -24,7 +24,7 @@ const Fbtn = () => {
             <div className='col s3 center-align'>
                 <a className='btn btn-large red dropdown-trigger' data-target='dropdown1' ref={btn}>JS 2</a>
             </div>
-            <ul id='dropdown1' class='dropdown-content'>
+            <ul id='dropdown1' className='dropdown-content'>
                 <li><a>one</a></li>
                 <li><a>two</a></li>
                 {/* <li class="divider" tabindex="-1"></li> */}

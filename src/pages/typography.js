@@ -1,10 +1,10 @@
 import React from 'react'
-import M from 'materialize-css'
-
+import { Fbtn } from './fbutn'
 export default function Typography() {
     return (
-        <div>
-            Typography
+        <div className="container">
+            <h1 className="center-align">Typography</h1>
+            <Fbtn />
             <h1>Heading One</h1>
             <h2>Heading Two</h2>
             <h3>Heading Three</h3>
@@ -25,12 +25,14 @@ export default function Typography() {
             <div>
                 <h5 className="center-align">Center aligned text</h5>
             </div>
-            <div class="valign-wrapper grey lighten-2" style={{height: '300px'}}>
+            <div className="valign-wrapper grey lighten-2" style={{height: '300px'}}>
                 <h5>This should be vertically aligned</h5>
             </div>
-            <div class="left">left</div>
-            <div class="right">right</div>
-            <div class="left">left</div>
+            <div className="row">
+                <div className="left">left</div>
+                <div className="right">right</div>
+                <div className="left">left</div>
+            </div>
         </div>
     )
 }
